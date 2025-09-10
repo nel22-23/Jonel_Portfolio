@@ -1,0 +1,125 @@
+
+.main img{
+    width: 250px;
+   position:relative;
+   margin-right: 50%;
+   height: 50%;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin:auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+ul{
+    margin-top: -7%;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkblue;
+    margin-top: -3%;
+    transition: -4s ease;
+
+}
+
+ul li a:hover{
+    color:rgb(218, 5, 5);
+
+}
+ .info{
+    margin-left: 7%;
+    margin-top: 6%;
+ }
+ .info  h1{
+    font-size: 50px;
+
+ }
+ .info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24%;
+
+ }
+
+ .info span{
+    color:blue;
+ }
+ .info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(48, 48, 211);
+    margin: 26px 0%;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 4s aese;
+ }
+ .info a:hover{
+    background: rgb(32, 32, 239);
+    
+ }
+
+ .about{
+    text-align: center;
+ }
+ .about h2{
+    color: blue;
+ }
+.contact{
+    text-align: center;
+ }
+.contact h2{
+    color: blue;
+}
+.experience{
+    text-align: center;
+}
+
+.experience h2{
+    color: blue;
+    
+}
+.footer{
+    background-color: rgb(146, 131, 192);
+    padding: 1rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .main{
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text {
+    max-width: 100%;
+  }
+  .logo {
+    margin-top: 2rem;
+  }
+  .Experience{
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .about{
+     flex-direction: column;
+    gap: 0.8rem;
+  }
+  .contact{
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
